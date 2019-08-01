@@ -8,10 +8,6 @@ namespace HelloWeb
     {
         public static void Main(string[] args)
         {
-
-            var tmp = "ABC";
-            tmp =+ "D";
-            
             var config = new ConfigurationBuilder()
                           .AddCommandLine(args)
                           .Build();
